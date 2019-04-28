@@ -1,0 +1,9 @@
+F:\YAZILIM\PROJELER\Ritmus\Ritmus.Core\bin\Debug\netcoreapp2.1\Ritmus.Core.deps.json
+F:\YAZILIM\PROJELER\Ritmus\Ritmus.Core\bin\Debug\netcoreapp2.1\Ritmus.Core.dll
+F:\YAZILIM\PROJELER\Ritmus\Ritmus.Core\obj\Debug\netcoreapp2.1\Ritmus.Core.csprojAssemblyReference.cache
+F:\YAZILIM\PROJELER\Ritmus\Ritmus.Core\obj\Debug\netcoreapp2.1\Ritmus.Core.csproj.CoreCompileInputs.cache
+F:\YAZILIM\PROJELER\Ritmus\Ritmus.Core\obj\Debug\netcoreapp2.1\Ritmus.Core.AssemblyInfoInputs.cache
+F:\YAZILIM\PROJELER\Ritmus\Ritmus.Core\obj\Debug\netcoreapp2.1\Ritmus.Core.AssemblyInfo.cs
+F:\YAZILIM\PROJELER\Ritmus\Ritmus.Core\bin\Debug\netcoreapp2.1\Ritmus.Core.pdb
+F:\YAZILIM\PROJELER\Ritmus\Ritmus.Core\obj\Debug\netcoreapp2.1\Ritmus.Core.dll
+F:\YAZILIM\PROJELER\Ritmus\Ritmus.Core\obj\Debug\netcoreapp2.1\Ritmus.Core.pdb

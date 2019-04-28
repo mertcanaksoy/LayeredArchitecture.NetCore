@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ritmus.Core", "Ritmus.Core\Ritmus.Core.csproj", "{1E6B3D43-70A0-43E8-87D1-8A786646152E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ritmus.ShoppingCart.BLL", "Ritmus.ShoppingCart.BLL\Ritmus.ShoppingCart.BLL.csproj", "{B63EC1F4-8251-4D93-82BA-385AC23BBA94}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ritmus.ShoppingCart.DAL", "Ritmus.ShoppingCart.DAL\Ritmus.ShoppingCart.DAL.csproj", "{D4596445-1402-4305-85E0-0A4370326385}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ritmus.ShoppingCart.Entities", "Ritmus.ShoppingCart.Entities\Ritmus.ShoppingCart.Entities.csproj", "{77C4F529-1D5A-4546-8C90-73FBB5BE2735}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ritmus.ShoppingCart.MvcWebUI", "Ritmus.ShoppingCart.MvcWebUI\Ritmus.ShoppingCart.MvcWebUI.csproj", "{0FF4B4ED-3495-41CC-8037-374DDD7AEBBF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E6B3D43-70A0-43E8-87D1-8A786646152E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E6B3D43-70A0-43E8-87D1-8A786646152E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E6B3D43-70A0-43E8-87D1-8A786646152E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E6B3D43-70A0-43E8-87D1-8A786646152E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B63EC1F4-8251-4D93-82BA-385AC23BBA94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B63EC1F4-8251-4D93-82BA-385AC23BBA94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B63EC1F4-8251-4D93-82BA-385AC23BBA94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B63EC1F4-8251-4D93-82BA-385AC23BBA94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4596445-1402-4305-85E0-0A4370326385}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4596445-1402-4305-85E0-0A4370326385}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4596445-1402-4305-85E0-0A4370326385}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4596445-1402-4305-85E0-0A4370326385}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77C4F529-1D5A-4546-8C90-73FBB5BE2735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77C4F529-1D5A-4546-8C90-73FBB5BE2735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77C4F529-1D5A-4546-8C90-73FBB5BE2735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77C4F529-1D5A-4546-8C90-73FBB5BE2735}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FF4B4ED-3495-41CC-8037-374DDD7AEBBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FF4B4ED-3495-41CC-8037-374DDD7AEBBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FF4B4ED-3495-41CC-8037-374DDD7AEBBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FF4B4ED-3495-41CC-8037-374DDD7AEBBF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7327DDCF-34A2-4289-8A65-4727EEB8D77B}
+	EndGlobalSection
+EndGlobal

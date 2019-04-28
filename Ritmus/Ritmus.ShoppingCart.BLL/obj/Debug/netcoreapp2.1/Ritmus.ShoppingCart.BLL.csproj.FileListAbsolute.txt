@@ -1,0 +1,16 @@
+F:\YAZILIM\PROJELER\Ritmus\Ritmus.ShoppingCart.BLL\bin\Debug\netcoreapp2.1\Ritmus.ShoppingCart.BLL.deps.json
+F:\YAZILIM\PROJELER\Ritmus\Ritmus.ShoppingCart.BLL\bin\Debug\netcoreapp2.1\Ritmus.ShoppingCart.BLL.dll
+F:\YAZILIM\PROJELER\Ritmus\Ritmus.ShoppingCart.BLL\bin\Debug\netcoreapp2.1\Ritmus.ShoppingCart.BLL.pdb
+F:\YAZILIM\PROJELER\Ritmus\Ritmus.ShoppingCart.BLL\bin\Debug\netcoreapp2.1\Ritmus.Core.dll
+F:\YAZILIM\PROJELER\Ritmus\Ritmus.ShoppingCart.BLL\bin\Debug\netcoreapp2.1\Ritmus.ShoppingCart.DAL.dll
+F:\YAZILIM\PROJELER\Ritmus\Ritmus.ShoppingCart.BLL\bin\Debug\netcoreapp2.1\Ritmus.ShoppingCart.Entities.dll
+F:\YAZILIM\PROJELER\Ritmus\Ritmus.ShoppingCart.BLL\bin\Debug\netcoreapp2.1\Ritmus.Core.pdb
+F:\YAZILIM\PROJELER\Ritmus\Ritmus.ShoppingCart.BLL\bin\Debug\netcoreapp2.1\Ritmus.ShoppingCart.DAL.pdb
+F:\YAZILIM\PROJELER\Ritmus\Ritmus.ShoppingCart.BLL\bin\Debug\netcoreapp2.1\Ritmus.ShoppingCart.Entities.pdb
+F:\YAZILIM\PROJELER\Ritmus\Ritmus.ShoppingCart.BLL\obj\Debug\netcoreapp2.1\Ritmus.ShoppingCart.BLL.csprojAssemblyReference.cache
+F:\YAZILIM\PROJELER\Ritmus\Ritmus.ShoppingCart.BLL\obj\Debug\netcoreapp2.1\Ritmus.ShoppingCart.BLL.csproj.CoreCompileInputs.cache
+F:\YAZILIM\PROJELER\Ritmus\Ritmus.ShoppingCart.BLL\obj\Debug\netcoreapp2.1\Ritmus.ShoppingCart.BLL.AssemblyInfoInputs.cache
+F:\YAZILIM\PROJELER\Ritmus\Ritmus.ShoppingCart.BLL\obj\Debug\netcoreapp2.1\Ritmus.ShoppingCart.BLL.AssemblyInfo.cs
+F:\YAZILIM\PROJELER\Ritmus\Ritmus.ShoppingCart.BLL\obj\Debug\netcoreapp2.1\Ritmus.ShoppingCart.BLL.csproj.CopyComplete
+F:\YAZILIM\PROJELER\Ritmus\Ritmus.ShoppingCart.BLL\obj\Debug\netcoreapp2.1\Ritmus.ShoppingCart.BLL.dll
+F:\YAZILIM\PROJELER\Ritmus\Ritmus.ShoppingCart.BLL\obj\Debug\netcoreapp2.1\Ritmus.ShoppingCart.BLL.pdb

@@ -1,0 +1,19 @@
+﻿@model Ritmus.ShoppingCart.MvcWebUI.Models.CategoryListViewModel
+<div class="col-md-12">
+    <div class="btn-group btn-group-justified">
+        @foreach (var category in Model.Categories)
+        {
+            var css = "btn btn-info";
+            if (category.CategoryId == Model.CurrentCategory)
+            {
+                css += " active";
+            }
+
+            <div class="btn-group" role="group">
+                <a href="/product/index?category=@category.CategoryId" class="@css">@category.CategoryName</a>
+            </div>
+        }
+    </div>
+    <br />
+</div>
+<br />
