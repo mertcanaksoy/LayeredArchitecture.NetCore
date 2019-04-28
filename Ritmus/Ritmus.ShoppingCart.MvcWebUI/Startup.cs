@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Routing;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Ritmus.ShoppingCart.BLL.Abstract;
@@ -30,7 +31,8 @@ namespace Ritmus.ShoppingCart.MvcWebUI
             services.AddSingleton<ICartService, CartService>();
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddSession();
-            services.AddMemoryCache();            
+            services.AddMemoryCache();
+            services.AddDistributedMemoryCache(); //Sql'e yazmak için
             services.AddMvc();
         }
 
@@ -45,8 +47,13 @@ namespace Ritmus.ShoppingCart.MvcWebUI
             app.UseFileServer();
             app.UseSession();
             app.UseNodeModules(env.ContentRootPath);
-            app.UseMvcWithDefaultRoute();
-            
+            app.UseMvc(ConfigureRoutes);
+            app.UseStaticFiles();
+        }
+
+        private void ConfigureRoutes(IRouteBuilder routeBuilder)
+        {
+            routeBuilder.MapRoute("Default", "{controller=Product}/{action=Index}/{id?}");
         }
     }
 }

@@ -12,5 +12,6 @@ namespace Ritmus.ShoppingCart.Entities.Concrete
         public int CategoryId { get; set; }
         public decimal UnitPrice { get; set; }
         public short UnitsInStock { get; set; }
+        public string Image { get; set; }
     }
 }

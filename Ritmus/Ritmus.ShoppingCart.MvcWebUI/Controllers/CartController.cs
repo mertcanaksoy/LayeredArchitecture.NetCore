@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Ritmus.ShoppingCart.BLL.Abstract;
+using Ritmus.ShoppingCart.Entities.Concrete;
+using Ritmus.ShoppingCart.MvcWebUI.Models;
 using Ritmus.ShoppingCart.MvcWebUI.Services;
 using System;
 using System.Collections.Generic;
@@ -27,17 +29,15 @@ namespace Ritmus.ShoppingCart.MvcWebUI.Controllers
         public ActionResult AddToCart(int productId)
         {
             var productToBeAdded = _productService.GetById(productId);
-
             var cart = _cartSessionService.GetCart();
-
             _cartService.AddToCart(cart, productToBeAdded);
-
             _cartSessionService.SetCart(cart);
 
             TempData.Add("message", String.Format("{0},Başarıyla Sepete Eklendi!", productToBeAdded.ProductName));
+           
 
             return RedirectToAction("Index", "Product");
-        }
+        }       
 
         public ActionResult Remove(int productId)
         {
@@ -47,5 +47,6 @@ namespace Ritmus.ShoppingCart.MvcWebUI.Controllers
             TempData.Add("message", String.Format("Ürün Sepetten Başarıyla Silindi"));
             return RedirectToAction("Index","Product");
         }
+
     }
 }
